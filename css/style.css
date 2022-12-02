@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas: 
+    'nav1 hd1 nav2'
+    'mn1 mn1 mn1'
+
+}
+
+.header1 {
+    grid-area: hd1;
+    background: red;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.nav1 {
+    grid-area: nav1;
+    background: blue;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.nav2 {
+    grid-area: nav2;
+    background: green;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.main1 {
+    grid-area: mn1;
+    height: 80vh;
+    line-height: 80vh;
+    background: purple;
+    text-align: center;
+
+}
+
+
+
