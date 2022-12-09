@@ -1,41 +1,68 @@
+body {
+    margin: 0px;
+    background-image: url(../img/animals/feeding-time-for-the-panda-550x413.jpeg);
+    background-size: cover;
+    
+    
+    
+}
+
 .container {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 10% 90%;
     grid-template-areas: 
     'nav1 hd1 nav2'
     'mn1 mn1 mn1'
 
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: hotpink;
+}
+
+
 .header1 {
     grid-area: hd1;
-    background: red;
+    background: rgba(red, green, blue, 0);
+    font-size: x-large;
     text-align: center;
-    padding: 70px 0;
+    padding: 40px 0;
+    
 }
 
 .nav1 {
     grid-area: nav1;
-    background: blue;
+    background: rgba(red, green, blue, 0);
+    font-size: large;
     text-align: center;
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 .nav2 {
     grid-area: nav2;
-    background: green;
+    background: rgba(red, green, blue, 0);
+    font-size: large;
     text-align: center;
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 .main1 {
     grid-area: mn1;
-    height: 80vh;
-    line-height: 80vh;
-    background: purple;
+    height: 90vh;
+    line-height: 90vh;
     text-align: center;
+    background-size: 100% 100%;
+   
+   
+   
 
 }
 
