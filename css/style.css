@@ -1,13 +1,19 @@
-body {
+.body {
     margin: 0px;
-    background-image: url(../img/animals/feeding-time-for-the-panda-550x413.jpeg);
+    background-color: aqua;
+    background-image: url();
     background-size: cover;
-    
-    
-    
 }
 
-.container {
+.body2 {
+    margin: 0px;
+    background-image: url(../img/animals/GAQ-Digital-Marketing-201-1-1024x683.jpg);
+    background-size: cover;
+ 
+}
+
+
+.container1 {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr;
@@ -19,7 +25,7 @@ body {
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
     
 }
@@ -52,19 +58,282 @@ a:hover {
     font-size: large;
     text-align: center;
     padding: 40px 0;
+    
 }
 
+
+img {
+    width: 500px;
+    height: 500px;
+    align-items: center;
+}
 .main1 {
     grid-area: mn1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 90vh;
     line-height: 90vh;
-    text-align: center;
+    
     background-size: 100% 100%;
    
+}
+
+/* Ovanför är det landingsidan. nedanför är meny sidan */
+
+
+
+.container3 {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 10fr;
+    grid-template-areas: 
+    'hd1 hd1 hd1'
+    'mn mn mn'
+}
+
+
+.länkar1 {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.länkar1:hover {
+    color: hotpink;
+}
+
+
+.header3 {
+    grid-area: hd1;
+    background: rgba(red, green, blue, 0);
+    font-size: x-large;
+    text-align: center;
+    padding: 40px 0;
+    justify-content: space-around;
+    display: flex;
+}
+
+
+.main3 {
+    background: lightblue;
+    height: 850px;
+    margin-left: 40px;
+    margin-right: 40px;
+    grid-area: mn;
+    background: rgba(red, green, blue, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
    
+}
+
+.article2 {
+    height: 700px;
+    width: 500px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'ti'
+    'me1'
+    'me2'
+    'me3'
+    'me4'
    
 
 }
 
+.titel {
+    grid-area: ti;
+    padding-top: 50px;
+    font-size: x-large;
+    text-align: center;
+}
 
 
+.Meny1 {
+    grid-area: me1;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.Meny2 {
+    grid-area: me2;
+    text-align: left;
+    margin-left: 50px;
+}
+.Meny3 {
+    grid-area: me3;
+    text-align: left;
+    margin-left: 50px;
+}
+.Meny4 {
+    grid-area: me4;
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+/* ovanför är meny sidan och nedanför är om oss sidan. */
+
+
+
+
+
+.container2 {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 10fr;
+    grid-template-areas: 
+    'hd1 hd1'
+    'mn ar2';
+}
+
+
+.länkar1 {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.länkar1:hover {
+    color: hotpink;
+}
+
+
+.reviews {
+    grid-area: hd;
+    text-align: center;
+    padding-top: 70px;
+    font-size: xx-large ;
+}
+
+.review1 {
+    grid-area: rv1;
+    font-size: large;
+    text-align: center;
+    margin: 30px;
+}
+
+.review2 {
+    grid-area: rv2;
+    font-size: large;
+    text-align: center;
+    margin: 30px;
+}
+
+.review3 {
+    grid-area: rv3;
+    font-size: large;
+    text-align: center;
+    margin: 30px;
+}
+
+.review4 {
+    grid-area: rv4;
+    font-size: large;
+    text-align: center;
+    margin: 30px;
+}
+
+.article1 {
+    grid-area: ar2;
+    background: deepskyblue;
+    width: 500px;
+    height: 850px;
+    margin-right: 30px;
+    grid-template-columns: 100%;
+    grid-template-rows: fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-areas: 
+    'hd'
+    'rv1'
+    'rv2'
+    'rv3'
+    'rv4';
+    
+
+}
+
+.header2 {
+    grid-area: hd1;
+    background: rgba(red, green, blue, 0);
+    font-size: x-large;
+    text-align: center;
+    padding: 40px 0;
+    justify-content: space-around;
+    display: flex;
+   
+    
+}
+
+.main2 {
+    background: deepskyblue;
+    grid-area: mn;
+    width: 1300px;
+    height: 850px;
+    margin-left: 30px;
+    background: rgba(red, green, blue, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.card1 {
+    background-image: url(../img/animals/J0k1DN1T_400x400.jpg);
+    height: 350px;
+    width: 350px;
+    border-radius: 100px;
+    background-color: aliceblue;
+}
+
+.card2 {
+    background-image: url(../img/animals/J0k1DN1T_400x400.jpg);
+    height: 350px;
+    width: 350px;
+    border-radius: 100px;
+    background-color: aliceblue;
+}
+
+.card3 {
+    background-image: url(../img/animals/J0k1DN1T_400x400.jpg);
+    height: 350px;
+    width: 350px;
+    border-radius: 100px;
+    background-color: aliceblue;
+}
+
+.card4 {
+    background-image: url(../img/animals/J0k1DN1T_400x400.jpg);
+    height: 350px;
+    width: 350px;
+    border-radius: 100px;
+    background-color: aliceblue;
+}
+
+.card5 {
+    background-image: url(../img/animals/J0k1DN1T_400x400.jpg);
+    height: 350px;
+    width: 350px;
+    border-radius: 100px;
+    background-color: aliceblue;
+}
+
+.card6 {
+    background-image: url(../img/animals/J0k1DN1T_400x400.jpg);
+    height: 350px;
+    width: 350px;
+    border-radius: 100px;
+    background-color: aliceblue;
+}
