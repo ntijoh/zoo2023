@@ -37,7 +37,6 @@ a:hover {
 
 .header1 {
     grid-area: hd1;
-    background: rgba(red, green, blue, 0);
     font-size: x-large;
     text-align: center;
     padding: 40px 0;
@@ -46,7 +45,6 @@ a:hover {
 
 .nav1 {
     grid-area: nav1;
-    background: rgba(red, green, blue, 0);
     font-size: large;
     text-align: center;
     padding: 40px 0;
@@ -54,7 +52,6 @@ a:hover {
 
 .nav2 {
     grid-area: nav2;
-    background: rgba(red, green, blue, 0);
     font-size: large;
     text-align: center;
     padding: 40px 0;
@@ -107,7 +104,6 @@ img {
 
 .header3 {
     grid-area: hd1;
-    background: rgba(red, green, blue, 0);
     font-size: x-large;
     text-align: center;
     padding: 40px 0;
@@ -122,7 +118,6 @@ img {
     margin-left: 40px;
     margin-right: 40px;
     grid-area: mn;
-    background: rgba(red, green, blue, 0);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -250,7 +245,7 @@ img {
     height: 850px;
     margin-right: 30px;
     grid-template-columns: 100%;
-    grid-template-rows: fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     display: grid;
     grid-template-areas: 
     'hd'
@@ -264,7 +259,6 @@ img {
 
 .header2 {
     grid-area: hd1;
-    background: rgba(red, green, blue, 0);
     font-size: x-large;
     text-align: center;
     padding: 40px 0;
@@ -280,7 +274,6 @@ img {
     width: 1300px;
     height: 850px;
     margin-left: 30px;
-    background: rgba(red, green, blue, 0);
     display: flex;
     flex-direction: row;
     justify-content: center;
